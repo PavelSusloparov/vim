@@ -34,4 +34,8 @@ ln -s ~/vim .vim
 
 Reload your console.
 
+WORKAROUND: If you have message:
+CSApprox needs gui support - not loading.
+Use gvim -v instead of vim or ignore this message.
+
 Please enjoy:)
