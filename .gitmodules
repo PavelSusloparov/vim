@@ -105,10 +105,19 @@
 	url = https://github.com/pthrasher/conqueterm-vim.git
 [submodule "bundle/ack"]
 	path = bundle/ack
-	url = https://github.com/tyok/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/nerdtree_ask"]
 	path = bundle/nerdtree_ask
 	url = https://github.com/vim-scripts/nerdtree-ack.git
 [submodule "bundle/nerdtree_ack"]
 	path = bundle/nerdtree_ack
 	url = https://github.com/tyok/nerdtree-ack.git
+[submodule "ctags.vim"]
+	path = ctags.vim
+	url = https://github.com/vim-scripts/ctags.vim.git
+[submodule "bundle/ctags.vim"]
+	path = bundle/ctags.vim
+	url = https://github.com/vim-scripts/ctags.vim.git
+[submodule "bundle/ctags"]
+	path = bundle/ctags
+	url = https://github.com/vim-scripts/ctags.vim.git
