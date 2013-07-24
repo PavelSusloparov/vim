@@ -117,13 +117,6 @@ export EDITOR=vim
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-export OPENSHIFT_APP_NAME=mobile
-export OPENSHIFT_MYSQL_DB_USERNAME=adminwnfHKgD
-export OPENSHIFT_MYSQL_DB_PASSWORD=PtNI4egTNDdW
-export OPENSHIFT_MYSQL_DB_HOST=127.8.139.1
-export OPENSHIFT_MYSQL_DB_PORT=3306
-export LD_LIBRARY_PATH=/usr/local/lib
-
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
