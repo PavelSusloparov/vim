@@ -1,5 +1,7 @@
 My vim modules and settings.
 
+/--------------------------------------/
+
 Pre actions:
 Install git, vim, ctags on your box.
 
@@ -20,6 +22,7 @@ sudo apt-get install git
 
 sudo apt-get install ctags
 
+/---------------------------------------/
 
 On your box:
 
@@ -64,6 +67,8 @@ WORKAROUND: If you have message:
 CSApprox needs gui support - not loading.
 
 Use gvim -v instead of vim or ignore this message.
+
+/------------------------------------------/
 
 
 Please enjoy:)
