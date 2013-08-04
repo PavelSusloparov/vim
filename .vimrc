@@ -98,6 +98,7 @@ set makeprg=make
 compiler gcc
 endif
 
+let g:pydiction_location = '/home/acekool/.vim/bundle/pydiction/complete-dict'
 let g:pymode_options = 0
 let g:pymode_lint_write = 0
 let g:pymode_folding = 0
