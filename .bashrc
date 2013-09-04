@@ -163,3 +163,10 @@ alias dmigrate='python manage.py migrate '
 alias dsyncdb='python manage.py syncdb'
 
 export ACKRC=".ackrc"
+
+export ORACLE_HOME=/usr/lib/oracle/11.2/client64
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$ORACLE_HOME
+#export VERSIONER_PYTHON_PREFER_32_BIT=yes
+export PATH=$PATH:/usr/local/mysql/bin
+export tai_configuration='[{"name":"regi","conf_descriptor":{"service":"stg"}},{"name":"sartre","conf_descriptor":{"service":"stg","db":"stg","misc_values":"php_internal"}}]'

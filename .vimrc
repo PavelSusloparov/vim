@@ -10,9 +10,9 @@ filetype plugin indent on
 "autocmd VimEnter * vsplit file
 "autocmd VimEnter * split file
 
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * NERDTree
 
-let NERDTreeShowHidden=1
+"let NERDTreeShowHidden=1
 
 set nocompatible
 
