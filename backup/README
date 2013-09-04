@@ -1,0 +1,14 @@
+What you can do is to backup your home directory and save a list of all packages that you have installed. To save the list of installed software use following command:
+
+sudo dpkg --get-selections > package_list
+This will create a file with a list of all pakcages/softwares that are installed on this system. You will need to backup this file to somewhere safe.
+
+Then when you reinstall ubuntu on your machine you can use the following command to install all these software
+
+sudo dpkg --set-selections < packages_list
+This command WILL NOT install anything. It will just mark the packages for install. To install them, run the following command:
+
+sudo apt-get -u dselect-upgrade
+This will take time to complete as your system will download and install all the packages. After this command is complete replace your current home directory with the one you backedup previously.
+
+Hope this helps
